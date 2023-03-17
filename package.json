@@ -1,0 +1,26 @@
+{
+  "name": "rust-rewriter",
+  "version": "1.4.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "pkg/*"
+  ],
+  "scripts": {
+    "test": "cargo test",
+    "prepare": "wasm-pack build --target web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mainmatter/rust-rewriter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mainmatter/rust-rewriter/issues"
+  },
+  "homepage": "https://github.com/mainmatter/rust-rewriter#readme",
+  "devDependencies": {
+    "wasm-pack": "^0.10.3"
+  }
+}
